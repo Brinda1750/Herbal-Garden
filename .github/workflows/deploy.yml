@@ -31,4 +31,4 @@ jobs:
           port: ${{ secrets.EC2_PORT }}
           key: ${{ secrets.EC2_SSH_KEY }}
           source: "dist/*"
-          target: "/var/www/html"
+          target: "/home/ubuntu/herbal-garden/dist"
